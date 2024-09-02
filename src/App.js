@@ -7,6 +7,7 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Blog from "./pages/Blog";
 import UxAcademy from "./pages/UxAcademy";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
           <Route  path="/outgoing-program" element={<OutgoingProgram />} />
           <Route  path="/scholarship" element={<Scholarship />} />
           <Route  path="/blog" element={<Blog />} />
+          <Route  path="/contact" element={<Contact />} />
+
 
         </Routes>
       </>

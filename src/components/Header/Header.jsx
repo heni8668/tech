@@ -113,7 +113,7 @@ const Header = () => {
                             </ul> */}
                           </li>
                           <li>
-                            <a href="contact.html">Contact</a>
+                            <Link to='/contact'>Contact</Link>
                           </li>
                         </ul>
                       </nav>
