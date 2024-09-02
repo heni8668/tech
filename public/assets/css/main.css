@@ -473,17 +473,18 @@ input[type=color] {
 /* theme btn */
 .bd-btn {
   display: inline-block;
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 3px;
   font-weight: 600;
-  color: var(--bd-theme-primary);
+  color: var(--bd-common-black);
   text-align: center;
   padding: 12px 65px 12px 35px;
   text-transform: uppercase;
   position: relative;
-  border: 1px solid var(--bd-theme-primary);
+  border: 2px solid var(--bd-common-white);
   z-index: 1;
   overflow: hidden;
+  background-color: var(--bd-common-white);
 }
 .bd-btn::after {
   content: "";
@@ -529,6 +530,10 @@ input[type=color] {
   background-color: var(--bd-common-white);
   transition-delay: 0.5s;
   transition-duration: 0.7s;
+}
+
+.banner-p {
+  color: white;
 }
 
 /* pulse btn */
