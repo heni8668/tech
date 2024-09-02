@@ -5,59 +5,59 @@ const Footer = () => {
     <div>
       {/* footer area start */}
       <footer>
-        <div class="bd-footer__section theme-bg-2 pt-120">
-          <div class="container">
-            <div class="bd-footer__main pb-50">
-              <div class="row">
-                <div class="col-lg-4">
-                  <div class="bd-footer-widget footer-col-1">
-                    <div class="bd-footer-widget__title">
+        <div className="bd-footer__section theme-bg-2 pt-120">
+          <div className="container">
+            <div className="bd-footer__main pb-50">
+              <div className="row">
+                <div className="col-lg-4">
+                  <div className="bd-footer-widget footer-col-1">
+                    <div className="bd-footer-widget__title">
                       <a href="index.html">
                         <img src="assets/img/logo/logo.png" alt="" />
                       </a>
                     </div>
-                    <div class="bd-footer-widget__content">
+                    <div className="bd-footer-widget__content">
                       <p>
                         Lorem ipsum dolor Lorem ipsum dolor sit tur adipisicing
                         elit, sed do eiusmod tempor iut labore et dolore magna
                         aliqua.
                       </p>
-                      <div class="bd-footer-widget__form">
+                      <div className="bd-footer-widget__form">
                         <form>
                           <input type="email" placeholder="Your email here" />
                           <button>Subscribe</button>
                         </form>
                       </div>
-                      <div class="bd-footer-widget__social">
+                      <div className="bd-footer-widget__social">
                         <span>
                           <a href="#">
-                            <i class="fab fa-facebook-f"></i>
+                            <i className="fab fa-facebook-f"></i>
                           </a>
                         </span>
                         <span>
                           <a href="#">
-                            <i class="fab fa-twitter"></i>
+                            <i className="fab fa-twitter"></i>
                           </a>
                         </span>
                         <span>
                           <a href="#">
-                            <i class="fab fa-youtube"></i>
+                            <i className="fab fa-youtube"></i>
                           </a>
                         </span>
                         <span>
                           <a href="#">
-                            <i class="fab fa-linkedin"></i>
+                            <i className="fab fa-linkedin"></i>
                           </a>
                         </span>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-4">
-                  <div class="bd-footer-widget footer-col-2">
-                    <h3 class="bd-footer-widget__title">Quick Links</h3>
-                    <div class="bd-footer-widget__content">
-                      <div class="bd-footer-widget__menu">
+                <div className="col-lg-4">
+                  <div className="bd-footer-widget footer-col-2">
+                    <h3 className="bd-footer-widget__title">Quick Links</h3>
+                    <div className="bd-footer-widget__content">
+                      <div className="bd-footer-widget__menu">
                         <ul>
                           <li>
                             <a href="#">About us</a>
@@ -94,19 +94,19 @@ const Footer = () => {
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-4">
-                  <div class="bd-footer-widget footer-col-3">
-                    <h3 class="bd-footer-widget__title">Recent Posts</h3>
-                    <div class="bd-footer-widget__content">
-                      <div class="bd-footer-widget__blog d-flex align-items-center mb-30">
-                        <div class="bd-footer-widget__blog-thum mr-30">
+                <div className="col-lg-4">
+                  <div className="bd-footer-widget footer-col-3">
+                    <h3 className="bd-footer-widget__title">Recent Posts</h3>
+                    <div className="bd-footer-widget__content">
+                      <div className="bd-footer-widget__blog d-flex align-items-center mb-30">
+                        <div className="bd-footer-widget__blog-thum mr-30">
                           <img
                             src="assets/img/footer/footer-blog-1.jpg"
                             alt="thub"
                           />
                         </div>
-                        <div class="bd-footer-widget__blog-content">
-                          <h3 class="bd-footer-widget__blog-title">
+                        <div className="bd-footer-widget__blog-content">
+                          <h3 className="bd-footer-widget__blog-title">
                             <a href="blog-details.html">
                               {" "}
                               Lorem ipsum dolor sit amet conse
@@ -115,15 +115,15 @@ const Footer = () => {
                           <span>Aug 28, 2017</span>
                         </div>
                       </div>
-                      <div class="bd-footer-widget__blog d-flex align-items-center mb-30">
-                        <div class="bd-footer-widget__blog-thum  mr-30">
+                      <div className="bd-footer-widget__blog d-flex align-items-center mb-30">
+                        <div className="bd-footer-widget__blog-thum  mr-30">
                           <img
                             src="assets/img/footer/footer-blog-2.jpg"
                             alt="thub"
                           />
                         </div>
-                        <div class="bd-footer-widget__blog-content">
-                          <h3 class="bd-footer-widget__blog-title">
+                        <div className="bd-footer-widget__blog-content">
+                          <h3 className="bd-footer-widget__blog-title">
                             <a href="blog-details.html">
                               {" "}
                               onod inova binai je tumi ama rsathe emon
@@ -137,7 +137,7 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div class="bd-footer__copyright bd-border-top pt-40 pb-40">
+            <div className="bd-footer__copyright bd-border-top pt-40 pb-40">
               <span>
                 All rights reserved © 2022 <a href="index.html">eThemeStudio</a>{" "}
               </span>

@@ -1,5 +1,7 @@
 import React from 'react'
 import backgroundImage from '../images/sliderImage.jpeg'
+import  AboutImage from '../images/one.jpeg'
+import { Link } from 'react-router-dom';
 // import Preloader from '../components/PreLoader/Preloader';
 
 const Home = () => {
@@ -154,7 +156,7 @@ const Home = () => {
                         >
                           Clean Simple & Minimal
                         </h3>
-                        <p data-animation="fadeInUp" data-delay=".7s">
+                        <p className='banner-p' data-animation="fadeInUp" data-delay=".7s">
                           Lorem ipsum dolor sit amet consmod tempor
                         </p>
                         <div
@@ -162,12 +164,12 @@ const Home = () => {
                           data-animation="fadeInUp"
                           data-delay=".9s"
                         >
-                          <a href="about.html" className="bd-btn">
-                            Read More{" "}
+                          <Link to='/contact' className="bd-btn">
+                            Contact Us{" "}
                             <span>
                               <i className="fa-regular fa-angle-right"></i>
                             </span>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -204,12 +206,12 @@ const Home = () => {
                           data-animation="fadeInUp"
                           data-delay=".9s"
                         >
-                          <a href="about.html" className="bd-btn">
-                            Read More{" "}
+                          <Link to='/contact' className="bd-btn">
+                            Contact Us{" "}
                             <span>
                               <i className="fa-regular fa-angle-right"></i>
                             </span>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -227,7 +229,9 @@ const Home = () => {
             <div className="row">
               <div className="col-12">
                 <div className="bd-section__title-wrapper text-center mb-90 wow fadeInUp">
-                  <span className="bd-section__subtitle mb-5">Creative Inc.</span>
+                  <span className="bd-section__subtitle mb-5">
+                    Creative Inc.
+                  </span>
                   <h3 className="bd-section__title bd-title-border">
                     You are welcome
                   </h3>
@@ -318,7 +322,7 @@ const Home = () => {
             <div className="row align-items-center">
               <div className="col-lg-6">
                 <div className="bd-about__img w-img mr-70 mb-30 wow fadeInRight">
-                  <img src="assets/img/about/about-1.jpg" alt="" />
+                  <img src={AboutImage} alt="" />
                 </div>
               </div>
               <div className="col-lg-6">
@@ -426,7 +430,9 @@ const Home = () => {
             <div className="row">
               <div className="col-12">
                 <div className="bd-section__title-wrapper text-center mb-120 wow fadeInUp">
-                  <span className="bd-section__subtitle mb-5">Creative Inc.</span>
+                  <span className="bd-section__subtitle mb-5">
+                    Creative Inc.
+                  </span>
                   <h3 className="bd-section__title bd-title-border">
                     You are welcome
                   </h3>
@@ -551,7 +557,9 @@ const Home = () => {
             <div className="row">
               <div className="col-lg-8">
                 <div className="bd-cta__info mb-30 wow fadeInUp">
-                  <h3 className="bd-cta__title text-white">Lets start a project</h3>
+                  <h3 className="bd-cta__title text-white">
+                    Lets start a project
+                  </h3>
                   <span>It will be fun. Lets gather aweosme experience </span>
                 </div>
               </div>

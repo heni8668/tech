@@ -6,27 +6,27 @@ const Header = () => {
     <div>
       {/* header area start */}
       <header>
-        <div class="bd-header__section bd-header__transparent">
-          <div class="bd-header__main" id="header-sticky">
-            <div class="container">
-              <div class="row align-items-center">
-                <div class="col-lg-2 col-md-6 col-6">
-                  <div class="logo">
+        <div className="bd-header__section bd-header__transparent">
+          <div className="bd-header__main" id="header-sticky">
+            <div className="container">
+              <div className="row align-items-center">
+                <div className="col-lg-2 col-md-6 col-6">
+                  <div className="logo">
                     <a href="index.html">
                       <img src="assets/img/logo/logo.png" alt="logo" />
                     </a>
                   </div>
                 </div>
-                <div class="col-lg-10 col-md-6 col-6">
-                  <div class="d-flex justify-content-end">
-                    <div class="main-menu ">
+                <div className="col-lg-10 col-md-6 col-6">
+                  <div className="d-flex justify-content-end">
+                    <div className="main-menu ">
                       <nav id="mobile-menu">
                         <ul>
                           <li
-                          // class="has-dropdown"
+                          // className="has-dropdown"
                           >
                             <Link to='/'>Home</Link>
-                            {/* <ul class="submenu">
+                            {/* <ul className="submenu">
                               <li>
                                 <a href="index.html">Home Style 1</a>
                               </li>
@@ -42,10 +42,10 @@ const Header = () => {
                             <Link to='/academy'>Ux academy</Link>
                           </li>
                           <li
-                          // class="has-dropdown"
+                          // className="has-dropdown"
                           >
                             <Link to="/scholarship">scholarship</Link>
-                            {/* <ul class="submenu">
+                            {/* <ul className="submenu">
                               <li>
                                 <a href="portfolio.html">Projects V1</a>
                               </li>
@@ -76,10 +76,10 @@ const Header = () => {
                           </li>
 
                           <li
-                          // class="has-dropdown"
+                          // className="has-dropdown"
                           >
                             <Link to="/outgoing-program">outgoing program</Link>
-                            {/* <ul class="submenu">
+                            {/* <ul className="submenu">
                               <li>
                                 <a href="services.html">services</a>
                               </li>
@@ -91,10 +91,10 @@ const Header = () => {
                             </ul> */}
                           </li>
                           <li
-                          // class="has-dropdown"
+                          // className="has-dropdown"
                           >
                             <Link to='/blog'>Blog</Link>
-                            {/* <ul class="submenu">
+                            {/* <ul className="submenu">
                               <li>
                                 <a href="blog.html">Blog V1</a>
                               </li>
@@ -118,29 +118,29 @@ const Header = () => {
                         </ul>
                       </nav>
                     </div>
-                    <div class="bd-header__main-right d-flex justify-content-end align-items-center pl-30">
-                      <div class="bd-header__search d-none d-md-block p-relative">
-                        <div class="bd-header__search-wrapper">
-                          <button class="bd-header__search-btn">
-                            {/* <i class="fal fa-search"></i> */}
+                    <div className="bd-header__main-right d-flex justify-content-end align-items-center pl-30">
+                      <div className="bd-header__search d-none d-md-block p-relative">
+                        <div className="bd-header__search-wrapper">
+                          <button className="bd-header__search-btn">
+                            {/* <i className="fal fa-search"></i> */}
                           </button>
-                          <button class="bd-header__search-btn-close">
-                            <i class="fal fa-times"></i>
+                          <button className="bd-header__search-btn-close">
+                            <i className="fal fa-times"></i>
                           </button>
                         </div>
-                        <div class="bd-header__search-form">
+                        <div className="bd-header__search-form">
                           <form>
                             <input type="text" placeholder="Search Here" />
                             <button>
-                              <i class="fal fa-search"></i>
+                              <i className="fal fa-search"></i>
                             </button>
                           </form>
                         </div>
                       </div>
-                      <div class="bd-header__hamburger ml-50">
+                      <div className="bd-header__hamburger ml-50">
                         <button
                           type="button"
-                          class="hamburger-btn offcanvas-open-btn"
+                          className="hamburger-btn offcanvas-open-btn"
                         >
                           <span></span>
                           <span></span>
