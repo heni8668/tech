@@ -25,7 +25,7 @@ const Header = () => {
                           <li
                           // class="has-dropdown"
                           >
-                            <a href="index-3.html">Home</a>
+                            <Link to='/'>Home</Link>
                             {/* <ul class="submenu">
                               <li>
                                 <a href="index.html">Home Style 1</a>
