@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from '../../images/logo/image.png'
 
 const Header = () => {
   return (
@@ -12,9 +13,9 @@ const Header = () => {
               <div className="row align-items-center">
                 <div className="col-lg-2 col-md-6 col-6">
                   <div className="logo">
-                    <a href="index.html">
-                      <img src="assets/img/logo/logo.png" alt="logo" />
-                    </a>
+                    <Link to="/">
+                      <img src={logo} height={100} width={140} alt="logo" />
+                    </Link>
                   </div>
                 </div>
                 <div className="col-lg-10 col-md-6 col-6">
@@ -25,7 +26,7 @@ const Header = () => {
                           <li
                           // className="has-dropdown"
                           >
-                            <Link to='/'>Home</Link>
+                            <Link to="/">Home</Link>
                             {/* <ul className="submenu">
                               <li>
                                 <a href="index.html">Home Style 1</a>
@@ -39,7 +40,7 @@ const Header = () => {
                             </ul> */}
                           </li>
                           <li>
-                            <Link to='/academy'>Ux academy</Link>
+                            <Link to="/academy">Ux academy</Link>
                           </li>
                           <li
                           // className="has-dropdown"
@@ -93,7 +94,7 @@ const Header = () => {
                           <li
                           // className="has-dropdown"
                           >
-                            <Link to='/blog'>Blog</Link>
+                            <Link to="/blog">Blog</Link>
                             {/* <ul className="submenu">
                               <li>
                                 <a href="blog.html">Blog V1</a>
@@ -112,8 +113,11 @@ const Header = () => {
                               </li>
                             </ul> */}
                           </li>
+                          {/* <li>
+                            <Link to="/contact">About us</Link>
+                          </li> */}
                           <li>
-                            <Link to='/contact'>Contact</Link>
+                            <Link to="/contact">Contact</Link>
                           </li>
                         </ul>
                       </nav>

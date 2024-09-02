@@ -156,7 +156,11 @@ const Home = () => {
                         >
                           Clean Simple & Minimal
                         </h3>
-                        <p className='banner-p' data-animation="fadeInUp" data-delay=".7s">
+                        <p
+                          className="banner-p"
+                          data-animation="fadeInUp"
+                          data-delay=".7s"
+                        >
                           Lorem ipsum dolor sit amet consmod tempor
                         </p>
                         <div
@@ -164,7 +168,7 @@ const Home = () => {
                           data-animation="fadeInUp"
                           data-delay=".9s"
                         >
-                          <Link to='/contact' className="bd-btn">
+                          <Link to="/contact" className="bd-btn">
                             Contact Us{" "}
                             <span>
                               <i className="fa-regular fa-angle-right"></i>
@@ -206,7 +210,7 @@ const Home = () => {
                           data-animation="fadeInUp"
                           data-delay=".9s"
                         >
-                          <Link to='/contact' className="bd-btn">
+                          <Link to="/contact" className="bd-btn">
                             Contact Us{" "}
                             <span>
                               <i className="fa-regular fa-angle-right"></i>
@@ -311,6 +315,7 @@ const Home = () => {
                   </div>
                 </div>
               </div>
+              
             </div>
           </div>
         </div>
