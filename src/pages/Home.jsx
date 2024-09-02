@@ -1,17 +1,19 @@
 import React from 'react'
 import backgroundImage from '../images/sliderImage.jpeg'
+// import Preloader from '../components/PreLoader/Preloader';
 
 const Home = () => {
   return (
     <>
       {/* pre loader area start */}
-      <div className="bd-preloader">
+      {/* <div className="bd-preloader">
         <div className="bd-preloader__center">
           <span>
             <img src="assets/img/logo/logo.png" alt="" />
           </span>
         </div>
-      </div>
+      </div> */}
+      {/* <Preloader /> */}
       {/* pre loader area end */}
 
       {/* back to top start */}

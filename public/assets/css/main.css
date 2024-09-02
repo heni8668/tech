@@ -1881,7 +1881,7 @@ input[type=color] {
 .bd-slider__subtitle {
   font-size: 28px;
   font-weight: 500;
-  color: var(--bd-common-black);
+  color: var(--bd-common-white);
   display: inline-block;
   margin-bottom: 15px;
   text-transform: uppercase;
@@ -1896,7 +1896,7 @@ input[type=color] {
 }
 .bd-slider__title {
   font-size: 72px;
-  color: var(--bd-common-black);
+  color: var(--bd-common-white);
   text-transform: uppercase;
   line-height: 1.2;
   text-transform: uppercase;
